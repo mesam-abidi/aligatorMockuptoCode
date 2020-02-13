@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lighticon{
+    height: 20px;
+    width: 10px;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    border: 1px solid black;
+    background-color: red;
+    
+}
+
+
+nav{
+    margin-top: 20px;
+}
+
+nav ul  {
+    display: flex;
+    flex-direction: row;
+
+}nav ul li{
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-left: 40px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.searchbar{
+    height: 30px;
+    width: 150px;
+    border-radius:4px;
+    margin-right: 20px;
+    margin-top: 10px;
+
+}
+
+.clippathh{
+    clip-path: polygon(50% 0%, 100% 0, 100% 65%, 50% 100%, 0 65%, 0 0);
+    background-color:grey;
+    color: white;
+    width: 100%;
+    height: 500px;
+   
+}
+
+#clipinnersection{
+    border: 1px solid black;
+    width: 50%;
+   
+   
+    
+}
+
+.aligatorimg{
+    height: 150px;
+    width: 200px;
+    display: flex;
+    align-self: center;
+}
+
+ h1{
+color: white;
+font-size: 40px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+}
+
+#clipinnersection p{
+    text-align: center;
+    
+}
+.jugar{
+    text-align: center;
+}
+
+
