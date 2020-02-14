@@ -123,5 +123,13 @@ p{
     
 }
 
+.sec2{
+    height: 500px;
+    background-image: linear-gradient( to right, rgb(204, 182, 74) ,#28313D);
+    clip-path: polygon(49% 29%, 100% 0, 100% 100%, 0 89%, 0 0);
+    margin-top: 0px;
+    
+
+}
 
 
