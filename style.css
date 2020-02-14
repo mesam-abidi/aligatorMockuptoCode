@@ -16,8 +16,8 @@ header{
     display: flex;
     justify-content:space-between;
     flex-direction: row;
-    border: 1px solid black;
-    background-color: red;
+    /* border: 1px solid black; */
+    background-image: linear-gradient( to right, #302E24 ,#28313D);
     
 }
 
@@ -38,38 +38,69 @@ nav ul li a {
     text-decoration: none;
     margin-left: 40px;
     color: white;
+    font-size: 14px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+#search-area-div{
+    border: 1px solid black;
+}
 .searchbar{
     height: 30px;
     width: 150px;
     border-radius:4px;
     margin-right: 20px;
     margin-top: 10px;
+    text-align: center;
+    border:1px solid  black;
+    font-size: 17px;
+    background-color: #222831;
+    color: #757560;
+    /* font-family: Arial, Helvetica, sans-serif; */
 
 }
 
-.clippathh{
+.icon-tweeter{
+    height: 25px;
+    width: 25px;
+    margin-right:5px;
+}
+
+.sec1{
     clip-path: polygon(50% 0%, 100% 0, 100% 65%, 50% 100%, 0 65%, 0 0);
-    background-color:grey;
+    /* background-color:grey; */
     color: white;
     width: 100%;
     height: 500px;
-   
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient( to right, #302E24 ,#28313D);
 }
 
 #clipinnersection{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 50%;
+    height: 400px;
+   display: flex;
+   flex-direction: column;
+  
    
    
     
 }
 
+#aligaror-img-div{
+    /* border: 1px solid black; */
+    width: 30%;
+    display: flex;
+    align-self: center;
+    margin-top: 50px;
+}
+
 .aligatorimg{
-    height: 150px;
-    width: 200px;
+    height: 170px;
+    width: 170px;
     display: flex;
     align-self: center;
 }
@@ -77,16 +108,20 @@ nav ul li a {
  h1{
 color: white;
 font-size: 40px;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-family: "Segoe UI", "Helvetica Neue", Helvetica, Roboto, "Open Sans", FreeSans, sans-serif ;
 text-align: center;
+}
+
+p{
+    font-size: 19px;
+    font-weight:300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #clipinnersection p{
     text-align: center;
     
 }
-.jugar{
-    text-align: center;
-}
+
 
 
