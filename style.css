@@ -5,6 +5,7 @@
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #222831;
 }
 
 .lighticon{
@@ -44,7 +45,7 @@ nav ul li a {
 
 
 #search-area-div{
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .searchbar{
     height: 30px;
@@ -53,7 +54,7 @@ nav ul li a {
     margin-right: 20px;
     margin-top: 10px;
     text-align: center;
-    border:1px solid  black;
+    border: 1px solid black;
     font-size: 17px;
     background-color: #222831;
     color: #757560;
@@ -69,7 +70,7 @@ nav ul li a {
 
 .sec1{
     clip-path: polygon(50% 0%, 100% 0, 100% 65%, 50% 100%, 0 65%, 0 0);
-    /* background-color:grey; */
+    /* background-color:red; */
     color: white;
     width: 100%;
     height: 500px;
@@ -124,12 +125,96 @@ p{
 }
 
 .sec2{
-    height: 500px;
-    background-image: linear-gradient( to right, rgb(204, 182, 74) ,#28313D);
-    clip-path: polygon(49% 29%, 100% 0, 100% 100%, 0 89%, 0 0);
+    height: 700px;
+    background-image: linear-gradient( to top, #373831 ,#222831);
+    clip-path: polygon(49% -9%, 100% 0, 100% 100%, 0 79%, 0 0);
     margin-top: 0px;
+    /* border: 1px solid white; */
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+  
     
 
 }
 
+/*Top Post Se start Hu gaya*/
 
+.top-post {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    text-align: center; 
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 38px;
+}
+.box-container{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.boxesdiv2{
+    /* border: 1px solid black; */
+    display: flex;
+      /* justify-content: space-around; */
+      /* background-color: #222831; */
+      width: 70%;
+      /* margin-left: 280px; */
+   }
+
+   .boxone{
+       /* border: 1px solid black; */
+       width: 30%;
+       /* margin: auto; */
+       margin-left: 25px;
+       height:122px;
+       border-bottom-right-radius:13px;
+       background-color: #1A1D24;
+      
+
+   }
+   .boxtwo{
+    /* border: 1px solid black; */
+    width: 30%;
+    /* margin: auto; */
+    margin-left: 25px;
+    height:122px;
+    border-bottom-right-radius:13px;
+    background-color: #1A1D24;
+}
+
+.boxthree{
+    /* border: 1px solid black; */
+    width: 30%;
+    /* margin: auto; */
+
+    margin-left: 25px;
+    height:122px;
+    border-bottom-right-radius:13px;
+    background-color: #1A1D24;
+}
+
+h3{
+    /* border: 1px solid black; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+    margin-top:20px;
+    width: 180px;
+    margin-left: 50px;
+    color: white;
+   
+   
+    
+}
+
+.lowerdiv{
+    margin-top: 10px;
+}
+
+.lowerboxes{
+    height:147px;
+}
