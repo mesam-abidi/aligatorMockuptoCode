@@ -44,9 +44,6 @@ nav ul li a {
 }
 
 
-#search-area-div{
-    /* border: 1px solid black; */
-}
 .searchbar{
     height: 30px;
     width: 150px;
@@ -217,4 +214,54 @@ h3{
 
 .lowerboxes{
     height:147px;
+}
+
+
+.topPost-LastSection{
+    
+    margin-top: 100px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.Subscribe-Heading{
+    color: #efbb35;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+}
+
+.Subscribe-emailbox{
+    height: 40px;
+    width: 248px;
+    border-radius:4px;
+    margin-right: 20px;
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid #E84279;
+    font-size: 17px;
+    background-color: #222831;
+    color: #757560;
+    display: flex;
+    align-self: center;
+    
+}
+
+.submit-btn{
+    background-color: #1A1E25;
+    color: #efbb35;
+    border: 1px solid #1A1E25;
+    height: 36px;
+    width: 110px;
+    border-radius: 8px;
+    display: flex;
+    align-self: center;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
 }
