@@ -265,3 +265,52 @@ h3{
     font-size: 16px;
     font-weight: 300;
 }
+
+/*React Section Start*/
+
+
+.React{
+    height: 400px;
+    /* background-image: linear-gradient( to top, #373831 ,#222831); */
+    /* clip-path: polygon(49% -9%, 100% 0, 100% 100%, 0 79%, 0 0); */
+    margin-top: 0px;
+    /* border: 1px solid white; */
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+  
+    
+
+}
+.reacth1{
+    color: rgba(15, 161, 228, 0.884);
+}
+
+.oranageText{
+    color: orange;
+}
+
+.allReactPost{
+    color:orange;
+    height: 40px;
+    width: 250px;
+    background-color:#1A1E25;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 8px;
+    border: 1px solid #1A1E25;
+   margin-top: 50px;
+}
+
+.yellowline{
+    border: 2px solid #FAE042;
+    width: 250px;
+    margin-top: 50px;
+}
+
+/*React Area End*/
+
+/*Css Area Start*/
+
+/*Css Area Ends*/
