@@ -284,6 +284,12 @@ h3{
 }
 .reacth1{
     color: #61DAFB;
+    font-size: 28px;
+}
+
+.reactlogo{
+    height: 30px;
+    width: 50px;
 }
 
 .oranageText{
@@ -316,6 +322,12 @@ h3{
 
 .JavaScriptSection{
     color: #DB9730;
+    font-weight: 500;
+}
+
+.jslogo{
+    height: 30px;
+    width: 50px;
 }
 
 .boxon{
@@ -331,6 +343,13 @@ h3{
 .CsssSection{
 
     color: #3399FE;
+    font-weight: 500;
+}
+
+.csslogo{
+    height: 30px;
+    width: 50px;
+    margin-top: 15px;
 }
 
 /*Css Section Ends*/
