@@ -353,3 +353,20 @@ h3{
 }
 
 /*Css Section Ends*/
+
+/*Angular Section Start*/
+
+.AngularSection{
+
+    color: #D10031;
+    font-weight: 500;
+    font-size: 32px;
+    
+
+}
+.Angularlogo{
+
+    height: 40px;
+    width: 60px;
+    margin-top: 25px;
+}
